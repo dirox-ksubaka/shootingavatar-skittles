@@ -1,0 +1,172 @@
+{"frames": {
+
+"Button.tga":
+{
+	"frame": {"x":2156,"y":585,"w":44,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":44},
+	"sourceSize": {"w":44,"h":44}
+},
+"Button_long.tga":
+{
+	"frame": {"x":1211,"y":1810,"w":416,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":416,"h":98},
+	"sourceSize": {"w":420,"h":104}
+},
+"CutPopup.tga":
+{
+	"frame": {"x":423,"y":1931,"w":1064,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":1064,"h":98},
+	"sourceSize": {"w":1064,"h":100}
+},
+"EarthLogo.tga":
+{
+	"frame": {"x":2090,"y":585,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60}
+},
+"Helvetica_neue.tga":
+{
+	"frame": {"x":2577,"y":1114,"w":1022,"h":474},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1022,"h":474},
+	"sourceSize": {"w":1024,"h":512}
+},
+"Helvetica_neue_bold.tga":
+{
+	"frame": {"x":1551,"y":1284,"w":1020,"h":510},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1020,"h":510},
+	"sourceSize": {"w":1024,"h":512}
+},
+"Numpad_0.tga":
+{
+	"frame": {"x":2090,"y":5,"w":1020,"h":494},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1020,"h":494},
+	"sourceSize": {"w":1024,"h":1024}
+},
+"Phon number field.tga":
+{
+	"frame": {"x":5,"y":1931,"w":412,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":99},
+	"sourceSize": {"w":412,"h":99}
+},
+"PopupBackground.tga":
+{
+	"frame": {"x":2090,"y":505,"w":148,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":74},
+	"sourceSize": {"w":148,"h":74}
+},
+"Reward background.png":
+{
+	"frame": {"x":5,"y":5,"w":1200,"h":1920},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":1920},
+	"sourceSize": {"w":1200,"h":1920}
+},
+"arrow.tga":
+{
+	"frame": {"x":3895,"y":5,"w":158,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":356},
+	"sourceSize": {"w":158,"h":356}
+},
+"background.png":
+{
+	"frame": {"x":2417,"y":863,"w":320,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":245},
+	"sourceSize": {"w":320,"h":245}
+},
+"cageots.tga":
+{
+	"frame": {"x":1211,"y":654,"w":1200,"h":624},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":624},
+	"sourceSize": {"w":1200,"h":624}
+},
+"cans.png":
+{
+	"frame": {"x":1211,"y":5,"w":873,"h":643},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":873,"h":643},
+	"sourceSize": {"w":873,"h":643}
+},
+"hand.tga":
+{
+	"frame": {"x":1211,"y":1284,"w":334,"h":520},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":6,"w":334,"h":520},
+	"sourceSize": {"w":344,"h":532}
+},
+"numpad_button.tga":
+{
+	"frame": {"x":1493,"y":1914,"w":98,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":98,"h":98},
+	"sourceSize": {"w":104,"h":104}
+},
+"panel.tga":
+{
+	"frame": {"x":2577,"y":505,"w":86,"h":172},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":172},
+	"sourceSize": {"w":86,"h":172}
+},
+"pots.tga":
+{
+	"frame": {"x":1633,"y":1800,"w":1050,"h":239},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1050,"h":239},
+	"sourceSize": {"w":1050,"h":239}
+},
+"store.tga":
+{
+	"frame": {"x":2689,"y":505,"w":1200,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":352},
+	"sourceSize": {"w":1200,"h":354}
+},
+"white.png":
+{
+	"frame": {"x":1493,"y":2018,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "In-game UI.tga",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b6d4ab9479929e42ce1b5037fb1ddd41:061ccce0608b7247ccb55175c555f465:083578fc1d607b0aabc25048a385cc18$"
+}
+}

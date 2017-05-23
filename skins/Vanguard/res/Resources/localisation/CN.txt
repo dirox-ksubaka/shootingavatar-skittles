@@ -1,0 +1,17 @@
+[
+	"Score1Title=啊哦…"
+	"Score2Title=大牛！"
+	"Score3Title=大明星！"
+	"Score1Message=勉强及格，你投了"
+	"Score2Message=你赢了！只投了"
+	"Score3Message=干的漂亮！你只投了"
+	"ScoreUnit=发"
+	"ScoreRecord=历史最高成绩："
+	"GetRewardButton=立即领奖"
+	"SMSPadEnterNumberLabel=请输入手机号"
+	"SMSPadConfirmNumberLabel=请确认手机号"
+	"SMSPadSendNumberButton=发送短信"
+	"SMSPadConfirmNumberButton=确认"
+	"StartSurveyButton=问卷调查"
+	"SmallStartSurveyButton=问卷调查"
+]

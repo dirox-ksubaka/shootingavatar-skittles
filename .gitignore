@@ -1,0 +1,13 @@
+unity/*
+
+!unity/Assets/
+!unity/ProjectSettings/
+
+unity/Assets/modules*
+unity/Assets/Plugins*
+unity/Assets/res/skin*
+unity/Assets/res/Resources*
+
+build/
+
+.deps/ksubaka-sdk-buildtools

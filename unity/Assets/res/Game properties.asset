@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 134551079, guid: 296aaf91f68f6bf49882f4b49a296e59, type: 3}
+  m_Name: Game properties
+  m_EditorClassIdentifier: 
+  _id: game
+  _properties:
+  - _typeId: 
+    _id: e0ba2116-e1de-4692-a6e8-67cdc0af1004
+    _name: ScoreBanner
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: Banner 1200x640 (1200x475 is optimal) that will appear at bottom of Score
+      screen.
+  - _typeId: 
+    _id: 6f134b1a-2cd5-4a7c-a397-896a6033c968
+    _name: AttractBanner
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: Banner 1200x640 (1200x475 is optimal) that will appear at top of Attract
+      screen.
+  - _typeId: 
+    _id: 07c7d5ee-ad3a-4e85-b95c-6ad5bd52f489
+    _name: TapToStartText
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: http://www.stephenjbedard.com/wp-content/uploads/2016/12/Image-of-God.001.jpeg
+    _hint: TapToStartText
+  - _typeId: 
+    _id: f5a7acd6-fa9f-40cd-8d77-cdf76b182eee
+    _name: LogoBanner
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: LogoBanner
+  - _typeId: 
+    _id: 643ca05e-fa95-4555-a9cb-834a0f82f8ce
+    _name: UseStrictBallPicking
+    _type:
+      _fullName: System.Boolean
+    _value: False
+    _hint: If ON, user must flick the ball instead of flicking anywhere on screen).
+  - _typeId: 
+    _id: d90a2757-6089-4514-bafe-6c2b801295b4
+    _name: AttractText
+    _type:
+      _fullName: System.String
+    _value: 0x33CC3380 Play to Win!
+    _hint: Text to display in Attract screen.
+  - _typeId: 
+    _id: 8bd25c92-6cfb-4504-a860-1903d8527d77
+    _name: AwningPicture
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: Custom awning texture 1200x352.
+  - _typeId: 
+    _id: d4d1c076-9d6f-4aa1-a68d-da0aa3b2e8b2
+    _name: CanTexture1
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: Custom can texture 1024x1024 (random between 1 and 2).
+  - _typeId: 
+    _id: 82fb97e9-748e-4648-9a6a-4ea136018197
+    _name: CanTexture2
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: Custom can texture 1024x1024 (random between 1 and 2).
+  - _typeId: 
+    _id: 51c25355-0f24-4a19-b09b-820c1fd733ce
+    _name: BallTexture
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: Custom ball texture 1024x1024.
+  - _typeId: 
+    _id: e609140b-2a9f-4a55-a950-c75c5e065e25
+    _name: ForegroundElementPicture
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: 'Element to be displayed at the foreground during game. Recommended dimensions
+      : 1200x620 Anchor : center
+
+'
+  - _typeId: 
+    _id: 70d95606-07cf-484b-a408-f253f4f847c5
+    _name: ShelvesElementPicture
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: 'Picture of element to be displayed on top of the shelves. Recommended
+      dimensions : 1050x239. Anchor : bottom (at the plank of the shelf)
+
+'
+  - _typeId: 
+    _id: 2613b6f5-ff54-4e25-be79-b6bdae8dd7e6
+    _name: GameBackgroundPicture
+    _type:
+      _fullName: ksubaka.core.unity.io.AssetUri
+    _value: 
+    _hint: "Picture to be displayed behind everything during gameplay. Recommended
+      dimensions : 1200x1920. Anchor : Center \nStretched to fill the screen.\n"
+  - _typeId: 
+    _id: 6dd623db-b39c-44c5-8fff-774c4195c30e
+    _name: Skittles
+    _type:
+      _fullName: System.Int32
+    _value: 10
+    _hint: number of skittles (throws) the player has. Cannot be set to <1 (default
+      it to 1.)
+  - _typeId: 
+    _id: 9a9610f1-0826-4642-b219-f3d62c9527b1
+    _name: SpawnMax
+    _type:
+      _fullName: System.Int32
+    _value: 3
+    _hint: Max number of spawns at every game.SpawnInterval
+  - _typeId: 
+    _id: 308c0a5b-0c69-40cc-bff6-70c9abb3a22c
+    _name: SpawnDuration
+    _type:
+      _fullName: System.Single
+    _value: 10
+    _hint: lifetime of spawns in seconds.
+  - _typeId: 
+    _id: 6da2ceaa-150e-4866-a486-d672a1a4928f
+    _name: ChangeDuration
+    _type:
+      _fullName: System.Single
+    _value: 0
+    _hint: "Every successful throw, decrease ChangeDuration by ChangeDuration. Every
+      unsuccessful throw, increase ChangeDuration by ChangeDuration.\r\n"
+  - _typeId: 
+    _id: 4ea4e7b7-f801-4675-9e07-9fe57711bfea
+    _name: SpawnTrigger
+    _type:
+      _fullName: System.Int32
+    _value: 2
+    _hint: "game starts with only 1 maximum spawn per SpawnInterval, when this number
+      (SpawnTrigger) of successful throws occur, increase maximum by 1 (random between
+      1 and 2.) Capped at game.SpawnMax(number).\r\n"
+  - _typeId: 
+    _id: 696ad970-0c9f-4e28-bec5-784102e1bfb2
+    _name: ThrowsB4AvatarCreation
+    _type:
+      _fullName: System.Int32
+    _value: 3
+    _hint: "number of throws before avatar creation is triggered. Includes successful
+      and unsuccessful throws. If set to -1, will never trigger avatar creation.\r\n"
+  - _typeId: 
+    _id: f027b7bf-55b6-4cd2-b241-b66dc3a694ae
+    _name: ActivateTap
+    _type:
+      _fullName: System.Boolean
+    _value: False
+    _hint: "turns on tapping as valid input. Tapping on Avatars throws Skittles at
+      them. Default = OFF.\r\n"
+  - _typeId: 
+    _id: 4d92f5f5-f41a-46a9-8c37-4ca830a0ffab
+    _name: SpawnInterval
+    _type:
+      _fullName: System.Single
+    _value: 2
+    _hint: Random number of spawns between 1 and game.SpawnMax(3)
+  - _typeId: 
+    _id: 36648db1-6735-4ec8-8594-3febf3223488
+    _name: MainPromotionText
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: Main CTA text in the Reward screen.
+  - _typeId: 
+    _id: ba8ee334-19ff-4817-bb64-b810760ce8c1
+    _name: SubPromotionText
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: Secondary CTA text in the Reward screen.
+  - _typeId: 
+    _id: 58e17a20-98e9-4164-9509-b92c61a37e9e
+    _name: MainPromotionTextCN
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: MainPromotionText CN
+  - _typeId: 
+    _id: 1b24c263-c078-40c5-a55e-cb56998e7a67
+    _name: SubPromotionTextCN
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: SubPromotionText CN
+  - _typeId: 
+    _id: f4357f12-f1ec-43dd-a5b7-17a0c39faf08
+    _name: MainPromotionText2
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: MainPromotionText2
+  - _typeId: 
+    _id: 8e0fcc63-f81d-4377-b987-a61fbf669f48
+    _name: SubPromotionText2
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: SubPromotionText2
+  - _typeId: 
+    _id: 8be89a80-299b-4a82-b10a-678832f846f9
+    _name: MainPromotionText2CN
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: MainPromotionText2CN
+  - _typeId: 
+    _id: c124182b-bb4c-466c-b3b4-3348d37ab8bf
+    _name: SubPromotionText2CN
+    _type:
+      _fullName: System.String
+    _value: 
+    _hint: SubPromotionText2CN
+  - _typeId: 
+    _id: 04ead14a-109e-473d-a39d-8c5c8489fcff
+    _name: ScoreBGTransition
+    _type:
+      _fullName: System.Int32
+    _value: 1
+    _hint: " = appears without transition, 1 = pops in like Flipcard Complete Transition
+      2. \r\nDefault = 1\r\n"
+  _convertersTypes:
+  - _fullName: ksubaka.KsubakaContext+LoggerConfigurationConverter
+  - _fullName: ksubaka.propertystore.converters.BoolPropertyConverter
+  - _fullName: ksubaka.propertystore.converters.IntPropertyConverter
+  - _fullName: ksubaka.propertystore.converters.FloatPropertyConverter
+  - _fullName: ksubaka.propertystore.converters.StringPropertyConverter
+  - _fullName: ksubaka.propertystore.converters.URLPropertyConverter
+  - _fullName: ksubaka.propertystore.converters.ColorPropertyConverter
+  - _fullName: ksubaka.propertystore.converters.Vector2PropertyConverter
+  - _fullName: ksubaka.propertystore.converters.Vector3PropertyConverter
+  - _fullName: ksubaka.propertystore.converters.Vector4PropertyConverter
+  - _fullName: ksubaka.propertystore.converters.RectPropertyConverter
+  - _fullName: ksubaka.propertystore.converters.QuaternionPropertyConverter

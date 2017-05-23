@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &120604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 420604}
+  - 114: {fileID: 11420606}
+  - 114: {fileID: 11494322}
+  - 114: {fileID: 11400574}
+  - 82: {fileID: 8294322}
+  - 114: {fileID: 11412630}
+  - 114: {fileID: 11412628}
+  - 114: {fileID: 11412626}
+  - 114: {fileID: 11401930}
+  m_Layer: 0
+  m_Name: TMN context
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &420604
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8294322
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &11400574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e215665f37940009371b31ecd32416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rewardScreenGameObjects:
+  - {fileID: 140746, guid: d08d6fc08cf233a4cb08268436840dfe, type: 2}
+  _rewardScreenRoot: {fileID: 0}
+--- !u!114 &11401930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 730141995, guid: 296aaf91f68f6bf49882f4b49a296e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _injections:
+  - _propertyName: 
+    _property:
+      _defaultPropertyStore: {fileID: 11400000, guid: f675a3e0d26dd465ea6d16b8ed70dab0,
+        type: 2}
+      _propertyId: 225ea9a1-46a2-40b3-aea6-101b59493550
+    _injection:
+      _typeId: 
+      _target: {fileID: 11400574}
+      _injectionType: Property
+      _memberName: useKeypad
+--- !u!114 &11412626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015c6ea203238477ebfd8c3b5728fdf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11412628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3399ed0b693ce4ce88103980eeedfb7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11412630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f45c235b801a4dfa8f2e34b739ebc66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11420606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 659383165, guid: 296aaf91f68f6bf49882f4b49a296e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attractStateImplementor:
+    _implementorType: 1
+    _isMandatory: 1
+    _type:
+      _fullName: betomorrow.tmn.shootinggallery.AttractStateImpl
+    _component: {fileID: 11412630}
+  _ageGateStateImplementor:
+    _implementorType: 0
+    _isMandatory: 0
+    _type:
+      _fullName: 
+    _component: {fileID: 0}
+  _tutorialStateImplementor:
+    _implementorType: 1
+    _isMandatory: 1
+    _type:
+      _fullName: betomorrow.tmn.shootinggallery.TutorialStateImpl
+    _component: {fileID: 11412628}
+  _playStateImplementor:
+    _implementorType: 1
+    _isMandatory: 1
+    _type:
+      _fullName: betomorrow.tmn.shootinggallery.PlayStateImpl
+    _component: {fileID: 11412626}
+  _displayScoreStateImplementor:
+    _implementorType: 1
+    _isMandatory: 1
+    _type:
+      _fullName: betomorrow.tmn.shootinggallery.DisplayScoreImpl
+    _component: {fileID: 11494322}
+  _displayRewardStateImplementor:
+    _implementorType: 1
+    _isMandatory: 1
+    _type:
+      _fullName: betomorrow.tmn.shootinggallery.DisplayRewardImpl
+    _component: {fileID: 11400574}
+  _localisationManager: {fileID: 11400000, guid: 94eb018a4175bbc42af512b2ce7ad866,
+    type: 2}
+--- !u!114 &11494322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d86b59b3b5be47a2b1569cbfa2dc4f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupInSound: {fileID: 0}
+  _gameManager: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 120604}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

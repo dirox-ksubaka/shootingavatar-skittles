@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 730676963, guid: 296aaf91f68f6bf49882f4b49a296e59, type: 3}
+  m_Name: Localisation manager
+  m_EditorClassIdentifier: 
+  _defaultLocaleIdentifier: EN
+  _locales:
+  - _identifier: CN
+    _entries:
+    - _key: Score1Message
+      _value: "\u52C9\u5F3A\u53CA\u683C\uFF0C\u4F60\u6295\u4E86"
+    - _key: Score2Message
+      _value: "\u4F60\u8D62\u4E86\uFF01\u53EA\u6295\u4E86"
+    - _key: Score3Message
+      _value: "\u5E72\u7684\u6F02\u4EAE\uFF01\u4F60\u53EA\u6295\u4E86"
+    - _key: Score1Title
+      _value: "\u554A\u54E6\u2026"
+    - _key: Score2Title
+      _value: "\u5927\u725B\uFF01"
+    - _key: Score3Title
+      _value: "\u5927\u660E\u661F\uFF01"
+    - _key: ScoreUnit
+      _value: "\u53D1"
+    - _key: ScoreRecord
+      _value: "\u5386\u53F2\u6700\u9AD8\u6210\u7EE9\uFF1A"
+    - _key: GetRewardButton
+      _value: "\u7ACB\u5373\u9886\u5956"
+    - _key: SMSPadEnterNumberLabel
+      _value: "\u8BF7\u8F93\u5165\u624B\u673A\u53F7"
+    - _key: SMSPadConfirmNumberLabel
+      _value: "\u8BF7\u786E\u8BA4\u624B\u673A\u53F7"
+    - _key: SMSPadSendNumberButton
+      _value: "\u53D1\u9001\u77ED\u4FE1"
+    - _key: SMSPadConfirmNumberButton
+      _value: "\u786E\u8BA4"
+    - _key: StartSurveyButton
+      _value: "\u95EE\u5377\u8C03\u67E5"
+    - _key: SmallStartSurveyButton
+      _value: "\u95EE\u5377\u8C03\u67E5"
+    - _key: StoreSpriteName
+      _value: store
+    - _key: TimerText
+      _value: "[b]\u5EF6\u65F6[/b]"
+    - _key: RewardTimer
+      _value: "\u65F6\u95F4\u4E0D\u591F?"
+    - _key: IntroPopup
+      _value: 
+    - _key: Confirm
+      _value: "\u786E\u8BA4"
+    - _key: Retake
+      _value: "\u91CD\u62CD"
+    - _key: Yes
+      _value: "\u662F"
+    - _key: No
+      _value: "\u65E0"
+  - _identifier: EN
+    _entries:
+    - _key: Score1Message
+      _value: You knocked them all down!
+    - _key: Score2Message
+      _value: Some really good shots!
+    - _key: Score3Message
+      _value: What an impressive aim!
+    - _key: Score1Title
+      _value: At least...
+    - _key: Score2Title
+      _value: Congrats!
+    - _key: Score3Title
+      _value: Incredible!
+    - _key: ScoreUnit
+      _value: throws
+    - _key: ScoreRecord
+      _value: 'Best aim here:'
+    - _key: GetRewardButton
+      _value: Get Reward
+    - _key: SMSPadEnterNumberLabel
+      _value: Enter number
+    - _key: SMSPadConfirmNumberLabel
+      _value: Confirm number
+    - _key: SMSPadSendNumberButton
+      _value: Send SMS
+    - _key: SMSPadConfirmNumberButton
+      _value: Confirm
+    - _key: StartSurveyButton
+      _value: Take Survey
+    - _key: SmallStartSurveyButton
+      _value: Take Survey
+    - _key: StoreSpriteName
+      _value: store-EN
+    - _key: TimerText
+      _value: Time Left
+    - _key: RewardTimer
+      _value: Tap to Extend
+    - _key: IntroPopup
+      _value: 
+    - _key: Confirm
+      _value: Confirm
+    - _key: Retake
+      _value: Retake
+    - _key: Yes
+      _value: Yes
+    - _key: No
+      _value: No
